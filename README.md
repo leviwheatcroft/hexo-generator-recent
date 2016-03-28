@@ -21,10 +21,10 @@ posts and list all keys
 an example. would be included in `_config.yml`
 
 ```yaml
-jsonContent:
-  file: `recent.json`
+generatorRecent:
+  file: recent.json
   number: 5
-  sort: `-date`
+  sort: -date
   fields: # set to true for all fields (default)
     - title
     - slug
