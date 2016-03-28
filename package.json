@@ -1,6 +1,6 @@
 {
   "name": "hexo-generator-recent",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Creates a list of recent articles in JSON",
   "main": "index.js",
   "scripts": {
