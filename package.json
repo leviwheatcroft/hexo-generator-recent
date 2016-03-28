@@ -1,0 +1,27 @@
+{
+  "name": "hexo-generator-recent",
+  "version": "0.0.0",
+  "description": "Creates a list of recent articles in JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leviwheatcroft/hexo-generator-recent.git"
+  },
+  "keywords": [
+    "hexo",
+    "generator",
+    "recent"
+  ],
+  "author": "Levi Wheatcroft <levi@wht.cr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leviwheatcroft/hexo-generator-recent/issues"
+  },
+  "homepage": "https://github.com/leviwheatcroft/hexo-generator-recent",
+  "dependencies": {
+    "underscore": "^1.8.3"
+  }
+}
