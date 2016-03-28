@@ -1,4 +1,4 @@
-# hexo-generator-json-content
+# hexo-generator-recent
 
 [Hexo](https://hexo.io/) plugin to generate a list of recent articles in JSON.
 Suitable for consumption by APIs or feeds.
@@ -11,9 +11,7 @@ Suitable for consumption by APIs or feeds.
 
 ## Usage
 
-```
-  hexo generate
-```
+Just generate as usual
 
 Using the default settings, the `recent.json` will contain the most recent 5
 posts and list all keys
