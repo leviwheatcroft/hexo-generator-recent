@@ -1,5 +1,7 @@
 # hexo-generator-recent
 
+Deprecated, unpublished from npm, delete repo Jan 2018
+
 [Hexo](https://hexo.io/) plugin to generate a list of recent articles in JSON.
 Suitable for consumption by APIs or feeds.
 

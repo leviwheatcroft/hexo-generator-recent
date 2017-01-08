@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/leviwheatcroft/hexo-generator-recent",
   "dependencies": {
-    "underscore": "^1.8.3"
+    "lodash": "^4.11.1"
   }
 }

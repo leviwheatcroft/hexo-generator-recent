@@ -1,5 +1,6 @@
-var _ = require('underscore')
-var util = require('util')
+'use strict'
+const _ = require('lodash')
+const util = require('util')
 
 //defaults
 var defaults = {
@@ -32,6 +33,7 @@ var circular = [
 ]
 // register plugin
 hexo.extend.generator.register('generatorRecent', function(locals) {
+
   var posts = []
   var options
   options = _.extend(
@@ -42,6 +44,7 @@ hexo.extend.generator.register('generatorRecent', function(locals) {
   if (options.fields === true) {
     options.fields = allFields
   }
+  let space = options.prettyPrint ? '  ' : ''
   circular = _.intersection(options.fields, circular)
 
 
@@ -71,6 +74,6 @@ hexo.extend.generator.register('generatorRecent', function(locals) {
 
   return {
     path: options.file,
-    data: JSON.stringify(posts)
+    data: JSON.stringify(posts, null, space)
   }
 })
